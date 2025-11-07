@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void){
-  printf("Hello, World!\n");
+  printf("Este é o exercício 1 do AF03.\n");
   return 0;
 }
