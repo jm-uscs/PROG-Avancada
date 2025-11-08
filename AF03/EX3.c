@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    // Zerei o vetor na declaração para evitar lixo de memória
+    // Zerei o vetor na declaração
     // Pois ocorria erro na soma caso contrário
     int vetorSoma[5] = {0, 0, 0, 0, 0};
 

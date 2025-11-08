@@ -13,7 +13,6 @@ int main(void)
 
     while (loop_pesquisa == 0)
     {
-
         printf("Digite um número para pesquisar no vetor: ");
         scanf("%d", &pesquisa);
 

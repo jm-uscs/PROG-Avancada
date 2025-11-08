@@ -6,7 +6,6 @@ int main(void)
     int contadorDiferente = 0;
 
     printf("Digite letras para preencher dois vetores de 5 posições cada.\n");
-
     printf("*** Vetor 1:\n");
 
     for (int i = 0; i < 5; i++)

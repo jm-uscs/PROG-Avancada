@@ -13,7 +13,7 @@ int main()
 
   for (int i = 0; i < 5; i++)
   {
-    printf("%2d", vetor[i]);
+    printf("\nValor do vetor no index %d é: %d", i, vetor[i]);
   }
 
   return 0;
