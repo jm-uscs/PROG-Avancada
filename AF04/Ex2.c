@@ -1,12 +1,15 @@
 
 #include <stdio.h>
 
-void triplo(int num) {
-	printf("O triplo de %d é %d !", num, num*3);
+float triplo(float num) {
+	return num*3;
 }
 
 int main(void)
 {
-	triplo(3);
+    float num;
+    printf("Insira um número: ");
+    scanf("%f", &num);
+	printf("o triplo de %.2f é %.2f", num, triplo(3));
 	return 0;
 }
