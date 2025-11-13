@@ -7,5 +7,10 @@ float imc(float peso, float altura) {
 
 int main(void)
 {   
-	printf("Seu imc é: %.2f", imc(65, 1.80));
+	float peso, altura;
+	printf("Insira seu peso em kg: ");
+	scanf("%f", &peso);
+	printf("Insira sua altura em metros: ");
+	scanf("%f", &altura);
+	printf("Seu imc é: %.2f", imc(peso, altura));
 }

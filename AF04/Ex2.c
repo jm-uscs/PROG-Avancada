@@ -10,6 +10,6 @@ int main(void)
     float num;
     printf("Insira um número: ");
     scanf("%f", &num);
-	printf("o triplo de %.2f é %.2f", num, triplo(3));
+	printf("o triplo de %.2f é %.2f", num, triplo(num));
 	return 0;
 }

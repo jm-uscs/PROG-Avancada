@@ -7,6 +7,11 @@ float areaTriangulo(float base, float altura) {
 
 int main(void)
 {
-	printf("%.2f", areaTriangulo(3, 4));
+	float base, altura;
+	printf("Insira a base do triângulo: ");
+	scanf("%f", &base);
+	printf("Insira a altura do triângulo: ");
+	scanf("%f", &altura);
+	printf("Área do Triângulo: %.2f", areaTriangulo(base, altura));
 	return 0;
 }
