@@ -7,6 +7,9 @@ void imprimeNome(char nome[]) {
 
 int main(void)
 {
-	imprimeNome("Jota");
+	char nome[25];
+	printf("Digite seu nome: ");
+	scanf("%s", nome);
+	imprimeNome(nome);
 	return 0;
 }
